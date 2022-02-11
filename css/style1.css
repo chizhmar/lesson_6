@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	font-family: "CircularStd", sans-serif;
+	min-height: 100%;
+	overflow: hidden;
+	line-height: 1.5;
+	max-width: 850px;
+	margin: 0 auto;
+}
+.header {
+	font-family: "Lato";
+	font-size: 30px;
+	font-weight: 700;
+	border: dashed;
+	display: inline-block;
+	margin-bottom: 30px;
+	color: rgb(16, 56, 102);
+}
+.main {
+}
+.title {
+	font-family: "Lato";
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 10px 10px 30px black, 10px 20px 10px red; 
+	border-radius: 30px;
+	margin-bottom: 30px;
+	color: black;
+}
+.img img {
+	max-width: 100%;
+	width: 100%;
+}
+.block1 {
+	font-size: 25px;
+	font-weight: 400;
+	text-decoration: line-through;
+	text-transform: capitalize;
+	border: dotted;
+	box-shadow: 10px 10px 10px 10px rgb(16, 78, 19), 10px 5px 1px 10px red;
+	margin: 30px 0 30px 0;
+	max-width: 600px;
+	color: chocolate;
+}
+.subtitle {
+	font-size: 50px;
+	text-align: right;
+	font-weight: 700;
+	margin: 45px 30px 20px 0;
+	text-decoration: overline;
+	color: blueviolet;
+}
+.block2 {
+	font-size: 28px;
+	text-align: left;
+	font-weight: 400;
+	text-decoration: overline;
+	margin: 0 0 30px 0;
+	border: dotted;
+	border-top: none;
+	border-bottom: none;
+	color: rgb(57, 138, 141);
+}
+.tex2 {
+	font-family: "Lato";
+	font-weight: 700;
+	box-shadow: 10px 10px 10px 10px rgb(16, 78, 19), 10px 5px 1px 20px red;;
+	color: brown;
+}
+.text3 {
+	font-style: italic;
+	margin-top: 30px;
+	word-spacing: 80px;
+	color: chartreuse;
+}
+.img2 img {
+	max-width: 100%;
+	width: 100%;
+	border-radius: 60%;
+}
+.subtitle2 {
+	font-family: "Caveat";
+	font-size: 50px;
+	font-weight: 900;
+	font-style: italic;
+	margin: 30px 0 30px 0;
+	box-shadow: 10px 10px 10px 10px rgb(16, 78, 19);
+	color: darkslategray;
+}
+.block3 {
+	font-size: 30px;
+	font-weight: 400;
+	overflow: scroll;
+	max-height: 150px;
+	margin-bottom: 40px;
+	color: rgb(151, 40, 127);
+
+}
+.text4 {
+	color: blue;
+	border: solid;
+}
+.text5 {
+	color: cadetblue;
+	border: dotted;
+	margin-top: 10px;
+}
+.text6 {
+	border: dashed;
+	margin-top: 10px;
+}
+.img3 img {
+	max-width: 100%;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.footer {
+	font-size: 40px;
+	color: brown;
+	box-shadow: 10px 10px 10px 10px rgb(88, 175, 17);
+}
